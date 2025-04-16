@@ -63,4 +63,4 @@ secrets.json
 
 ---
 
-Feito por [Nicholas Lima] como ferramenta de estudo
+Feito por **Nicholas Lima** como ferramenta de estudo
