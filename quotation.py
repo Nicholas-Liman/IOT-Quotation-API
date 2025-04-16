@@ -13,7 +13,7 @@ THINGSPEAK_URL = "https://api.thingspeak.com/update"
 # Caminho para a API de cotação
 API_URL = "https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,CNY-BRL"
 
-# Função que envia os dados recebidos da API para o ThingSpeak
+# Função que organiza os dados recebidos da API
 def enviar_para_thingspeak(usd, eur, cny):
     payload = {
         "api_key": WRITE_API_KEY,
